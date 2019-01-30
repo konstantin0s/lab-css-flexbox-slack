@@ -287,24 +287,14 @@ footer li {
     flex-direction: row;
 }
 
-.span {
-  position: relative;
-  left: 42px;
-}
 
 .flag img {
  width: 40px;
  height: 40px;
- margin-right:0px;
- top: 1px; 
- left: 30px;
+ margin-right:10px;
+ top: 1px;
+ 
 }
-
-
-.fa-chevron-down {
-  left: 35px;
-}
-
 
 .icon-flex {
     display:flex;
