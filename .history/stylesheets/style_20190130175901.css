@@ -6,10 +6,6 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font: 16px Verdana sans-serif;
   padding: 0;
@@ -231,34 +227,32 @@ footer img {
    width: 170px;
 
 }
-
-/* .flex-container {
+.flex-container {
+  padding: 0;
+  margin: 0;
   list-style: none;
- justify-content: space-around; 
-  padding: 10px;
- margin: 20px 40px; 
- align-items: center; 
-flex-direction: column; 
-   align-items: strech;
-
-} */
-
-footer li {
-  list-style-type: none;
+  /* border: 1px solid silver; */
+  display: flex;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
+.nowrap  { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
 }
-
 
 }
 

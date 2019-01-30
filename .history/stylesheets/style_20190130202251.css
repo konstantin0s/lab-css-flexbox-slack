@@ -243,10 +243,6 @@ flex-direction: column;
 
 } */
 
-footer li {
-  list-style-type: none;
-}
-
 .column {
   float: left;
   width: 50%;

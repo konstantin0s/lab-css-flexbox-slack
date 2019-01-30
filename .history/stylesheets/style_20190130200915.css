@@ -6,10 +6,6 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font: 16px Verdana sans-serif;
   padding: 0;
@@ -232,7 +228,7 @@ footer img {
 
 }
 
-/* .flex-container {
+.flex-container {
   list-style: none;
  justify-content: space-around; 
   padding: 10px;
@@ -241,24 +237,7 @@ footer img {
 flex-direction: column; 
    align-items: strech;
 
-} */
-
-footer li {
-  list-style-type: none;
 }
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 }
 
