@@ -1157,13 +1157,13 @@ footer li {
 
 .flex-container1 {
  position: relative;
-left: -60px;
+left: -260px;
 width: 200px
 }
 
 .flex-container2 {
  position: relative;
-left: 370px;
+left: 670px;
 width: 200px;
  top: -150px;
 }
@@ -1171,7 +1171,7 @@ width: 200px;
 .flex-container3 {
 
  position: relative;
-left: 380px;
+left: 80px;
 width: 200px;
  top: -150px;
 }
