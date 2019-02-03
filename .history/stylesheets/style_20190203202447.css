@@ -982,8 +982,7 @@ nav img {
     width: 100%;
     display:flex;
     align-items: center;
-    flex-direction: row;
-    margin-top: 90px;
+    flex-direction: column;
   } 
   
  .sign h1 {
@@ -1157,13 +1156,13 @@ footer li {
 
 .flex-container1 {
  position: relative;
-left: -260px;
+left: -230px;
 width: 200px
 }
 
 .flex-container2 {
  position: relative;
-left: 670px;
+left: 470px;
 width: 200px;
  top: -150px;
 }
@@ -1171,22 +1170,11 @@ width: 200px;
 .flex-container3 {
 
  position: relative;
-left: 380px;
+left: 200px;
 width: 200px;
  top: -150px;
 }
 
-.flex-container4 {
-    display:flex;
-    align-items: center;
-    flex-direction: row;
-
-}
-
-.flex-container4 li {
-   margin: 15px;
-   font-weight: 700;
-}
 
 .row::after {
   content: "";
@@ -1200,6 +1188,18 @@ width: 200px;
     align-items: center;
     flex-direction: row;
     background-color: #F4F3F4;
+}
+
+.flex-container4 {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.flex-container4 li {
+   margin: 15px;
+   font-weight: 700;
 }
 
 .flag-flex {
