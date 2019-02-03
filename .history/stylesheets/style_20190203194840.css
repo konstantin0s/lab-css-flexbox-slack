@@ -579,7 +579,7 @@ width: 200px;
     width: 100%;
     display:flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #F4F3F4;
 }
 
@@ -604,33 +604,27 @@ width: 200px;
 .span {
   position: relative;
   left: 42px;
-  top: 36px;
 }
 
 .flag img {
  width: 40px;
  height: 40px;
- margin-right:10px;
- top: 35px; 
+ margin-right:0px;
+ top: 1px; 
  left: 30px;
 }
 
 
 .fa-chevron-down {
-  left: 45px;
-  top: 35px;
+  left: 35px;
 }
 
-.icon-flex i {
-  posittion: relative;
-  left: 280px;
-  top: -40px;
-}
 
 .icon-flex {
-  display: flex;
-  flex-direction: row;  
-} 
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+} */
 
 }
 
